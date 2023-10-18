@@ -1,0 +1,200 @@
+/* * */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #0167d3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+#cabecalho {
+    border: 2px solid #0167d3;
+    box-shadow: 0 0 2px #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#navigator ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#navigator li {
+    margin-right: 10px;
+}
+
+#navigator a {
+    text-decoration: none;
+    color: white;
+}
+
+/* BODY */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* ORGANOGRAMA */ 
+/* DESCONTINUEI O MEU ORGANOGRAMA FEITO A MÃO, OBRIGADO POR LER!!! */
+
+/* body {
+    font-family: Arial, sans-serif;
+}
+
+.organogram {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+.ceo {
+    background-color: #f2a154;
+}
+
+.manager {
+    background-color: #87c955;
+}
+
+.employee {
+    background-color: #70a5e0;
+}
+
+.box p {
+    margin: 0;
+} */
+
+
+
+/* MAIN */
+
+main {
+    flex: 1;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-container {
+    display: block;
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 300px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+#organograma img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
